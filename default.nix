@@ -11,12 +11,8 @@ in pkgs.mkShell rec {
     # A Python interpreter including the 'venv' module is required to bootstrap
     # the environment.
     pythonPackages.python
-
-    # This executes some shell code to initialize a venv in $venvDir before
-    # dropping into the shell
-
-    # For PDF production  in mkdocs
     pythonPackages.venvShellHook
+    pythonPackages.spacy
   ];
 
   # Run this command, only after creating the virtual environment
