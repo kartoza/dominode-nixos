@@ -87,4 +87,15 @@ python-dateutil==2.8.2
 six==1.16.0
 ```
 
+## VSCode
 
+VSCode is bundled here. To open vscode with the pystac library in your python
+path, do this from the command line after running nix-shell:
+
+```
+code .
+```
+
+
+You can test by opening test.py and running it in VSCode. It should print out the 
+top level functions or pystac lib.

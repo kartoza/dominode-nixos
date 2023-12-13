@@ -13,6 +13,7 @@ in pkgs.mkShell rec {
     pythonPackages.python
     pythonPackages.venvShellHook
     pinnedPkgs.thonny
+    pinnedPkgs.vscode
   ];
 
   # Run this command, only after creating the virtual environment
