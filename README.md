@@ -53,7 +53,7 @@ packages from the internet, so having a good internet connection will help a
 lot here.
 
 ```
-nix shell
+nix-shell
 ```
 
 Note: As mentioned above, if you have direnv set up on NixOS, you can skip this
