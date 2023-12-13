@@ -12,7 +12,6 @@ in pkgs.mkShell rec {
     # the environment.
     pythonPackages.python
     pythonPackages.venvShellHook
-    pythonPackages.spacy
   ];
 
   # Run this command, only after creating the virtual environment
