@@ -12,6 +12,7 @@ in pkgs.mkShell rec {
     # the environment.
     pythonPackages.python
     pythonPackages.venvShellHook
+    pinnedPkgs.thonny
   ];
 
   # Run this command, only after creating the virtual environment
