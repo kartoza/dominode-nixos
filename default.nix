@@ -12,8 +12,7 @@ in pkgs.mkShell rec {
     # the environment.
     pythonPackages.python
     pythonPackages.venvShellHook
-    pinnedPkgs.thonny
-    pinnedPkgs.vscode
+    pinnedPkgs.qgis-ltr
   ];
 
   # Run this command, only after creating the virtual environment
