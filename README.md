@@ -1,4 +1,4 @@
-# Pystac Environment 
+# Pysta, QGIS, PDAL Environment 
 
 ## Preparing your Environment
 
@@ -29,13 +29,13 @@ which will create a seamless entry into the development environment.
 You need to have a local copy of this project in order to build the documentation. To do that you can do:
 
 ```
-git clone https://github.com/kartoza/pystac-nix.git
+git clone https://github.com/kartoza/dominode-nixos.git
 ```
 
 or
 
 ```
-git clone git@github.com:kartoza/pystac-nix.git
+git clone git@github.com:kartoza/dominode-nixos.git
 ```
 
 ### Open the project in your terminal
@@ -43,7 +43,7 @@ git clone git@github.com:kartoza/pystac-nix.git
 Open your favourite terminal and enter into this documentation folder:
 
 ```
-cd pystac-nix
+cd dominode-nixos
 ```
 
 ### Install the build environment
