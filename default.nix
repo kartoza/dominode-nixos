@@ -13,7 +13,9 @@ in pkgs.mkShell rec {
     pythonPackages.python
     pythonPackages.venvShellHook
     pinnedPkgs.qgis-ltr
-    pinnedPkgs.pdal
+    pinnedPkgs.pdal  
+    pinnedPkgs.gdal
+    pythonPackages.numpy
   ];
 
   # Run this command, only after creating the virtual environment
